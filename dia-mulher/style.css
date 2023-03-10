@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+  body{
+      font-size: 1rem;
+      background-color: #e6e6e6;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #area-cabecalho{
+      padding: 0.9rem;
+      background-color: #DB7093;
+      text-align:left;
+  }
+
+  #area-logo, #area-menu{
+      padding: 0.8rem;
+  }
+  .logo-branco{
+      color: #fff;
+  }
+  #area-menu a{
+      text-decoration: none;
+      border-radius: 0.7rem;
+  }
+  #area-menu a:link, #area-menu a:visited{
+      color: #fff;
+      padding: 8px 12px;
+  }
+  #area-menu a:hover{
+      background-color: #fff;
+      color: #DB7093;
+  }
+  #area-principal{
+    width: 57.5rem;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+ #area-postagens{
+    width: 41.25rem;
+ }
+ #area-lateral{
+    width: 15rem;
+    margin-left: 1.2rem;
+ }
+ .postagem{
+    padding: 1rem;
+    background-color: #fff;
+ }
+ .postagem-imagem{
+    width: 39rem;
+ }
+
+.postagem-imagem-1{
+    width: 14.5rem;
+    padding: 5px;
+}
+
+ .postagem-titulo{
+    color: #DB7093;
+ }
+ .postagem-data{
+    font-size: 0.8rem;
+    display: block;
+    padding-bottom: 0.8rem;
+ }
+ .postagem p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+ }
+ .postagem a{
+    text-decoration: none;
+ }
+ .postagem a:visited, .postagem a:link{
+    color: #DB7093;
+ }
+ .postagem a:hover{
+    text-decoration: underline;
+ }
+ .conteudo-lateral{
+   background-color: white;
+   padding: .0rem;
+   margin-bottom: .7rem;
+ }
+ .conteudo-lateral-titulo{
+   color: #565656;
+   background-color: #ccc;
+   padding: .3rem;
+ }
+ .texto-postagem-lateral{
+   font-size: .8rem;
+   padding: .3rem;
+ }
+ .conteudo-lateral a{
+   text-decoration: none;
+   margin: 0.2rem;
+   font-size: .8rem;
+   display: flex;
+ }
+ .conteudo-lateral a:visited, .conteudo-lateral a:link{
+   color: #DB7093;
+ }
+ .conteudo-lateral a:hover{
+   text-decoration: underline;
+ }
+ footer{
+   background-color: #fff;
+   text-align: center;
+   width: 15.5rem;
+   margin: auto;
+   margin-top: 100px;
+ }
